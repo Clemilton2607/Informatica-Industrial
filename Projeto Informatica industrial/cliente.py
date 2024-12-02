@@ -46,23 +46,6 @@ try:
         print("Dado do sensor de umidade inserido no banco com sucesso!")
         time.sleep(5) 
         
-        
-        
-    
-    
-    
-    
-    
-    
-    
-    
-   
-        
-      
-        
-        
-        
-        
 except UaStatusCodeError as e:
     print(f"Erro na conexão com o servidor OPC UA: {e}")
 except Exception as ex:
